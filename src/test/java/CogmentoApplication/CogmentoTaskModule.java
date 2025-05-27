@@ -1,35 +1,32 @@
 package CogmentoApplication;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
-import javax.swing.*;
 import java.time.Duration;
 import java.util.Set;
 
-public class CogmentoFullApplication extends CogmentoTestNG {
+public class CogmentoTaskModule extends CogmentoTestNG{
 
     String year = "2026";
     String month = "September";
     String date = "17";
     String time = "18:00";
 
-
     @Test
     public void implementationOfCogmento() throws InterruptedException {
 
         WebElement clickOnLoginButton = driver.findElement(By.xpath("//a[text()='Login']"));
         clickOnLoginButton.click();
-        String cogmentoWindow = driver.getWindowHandle();
-        System.out.println(cogmentoWindow);
+        String cogmentoLoginButton = driver.getWindowHandle();
+        System.out.println(cogmentoLoginButton);
         System.out.println("*************************************");
 
         Set<String> allWindows = driver.getWindowHandles();
 
         for (String tab : allWindows) {
-            System.out.println(tab);
             driver.switchTo().window(tab);
         }
 
@@ -41,22 +38,6 @@ public class CogmentoFullApplication extends CogmentoTestNG {
 
         WebElement LoginButton = driver.findElement(By.xpath("//div[text()='Login']"));
         LoginButton.click();
-
-//        WebElement clickOnContact = driver.findElement(By.xpath("(//span[text()='Contacts'])[1]"));
-//        clickOnContact.click();
-//
-//        WebElement clickOnCreateButton = driver.findElement(By.xpath("//button[text()='Create']"));
-//        clickOnCreateButton.click();
-//
-//        WebElement enterFirstName = driver.findElement(By.cssSelector("[name='first_name']"));
-//        enterFirstName.sendKeys("Venkata");
-//
-//        WebElement enterLastName = driver.findElement(By.cssSelector("[name='last_name']"));
-//        enterLastName.sendKeys("Gopi");
-//
-//        WebElement enterCompanyName = driver.findElement(By.xpath("(//input[@class='search'])[1]"));
-//        enterCompanyName.sendKeys("HyperGrid ");
-
         WebElement clickOnTask = driver.findElement(By.xpath("(//span[text()='Tasks'])[1]"));
         clickOnTask.click();
 
@@ -80,8 +61,7 @@ public class CogmentoFullApplication extends CogmentoTestNG {
 
         WebElement clickOnDueDateInputBox = driver.findElement(By.cssSelector("input[class='calendarField']"));
         clickOnDueDateInputBox.click();
-        Actions actions = new Actions(driver);
-        actions.scrollToElement(clickOnDueDateInputBox).perform();
+        Thread.sleep(2000);
 
         WebElement nextButton = driver.findElement(By.cssSelector("button[aria-label='Next Month']"));
 
@@ -104,20 +84,6 @@ public class CogmentoFullApplication extends CogmentoTestNG {
         clickOnDate.click();
         WebElement clickOnTime = driver.findElement(By.xpath("//li[text()='14:00']"));
         clickOnTime.click();
-
-//        WebElement clickContact = driver.findElement(By.xpath("(//input[@class='search'])[1]"));
-//        clickContact.click();
-//        WebElement clickOnContact = driver.findElement(By.xpath("//span[text()='9989202181 ']"));
-//        clickOnContact.sendKeys("9989202181");
-        WebElement clickOnContactInputBox = driver.findElement(By.xpath("(//input[@class='search'])[1]"));
-//        clickOnContactInputBox.sendKeys("7989195677");
-        clickOnContactInputBox.sendKeys("8919086683");
-//        WebElement clickOnContact = driver.findElement(By.xpath("//span[text()='7989195677 ']"));
-//        clickOnContact.click();
-//        WebElement clickCompanyName = driver.findElement(By.cssSelector("input[fdprocessedid='gom76']"));
-//        clickCompanyName.click();
-        WebElement clickOnCompanyName = driver.findElement(By.xpath("//span[text()='HyperGrid ']"));
-        clickOnCompanyName.sendKeys("HyperGrid Technology pvt");
+//
     }
 }
-
