@@ -1,8 +1,10 @@
 package CogmentoApplication;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
 import java.time.Duration;
@@ -10,10 +12,15 @@ import java.util.Set;
 
 public class CogmentoTaskModule extends CogmentoTestNG{
 
-    String year = "2026";
-    String month = "September";
-    String date = "17";
+    String year = "2025";
+    String month = "August";
+    String date = "31";
     String time = "18:00";
+
+    String closeYear = "August 2026";
+    String closeMonth = "August";
+    String closeDate = "26";
+    String closeTime = "18:00";
 
     @Test
     public void implementationOfCogmento() throws InterruptedException {
@@ -58,6 +65,8 @@ public class CogmentoTaskModule extends CogmentoTestNG{
 
         WebElement clickOnTechnicalText = driver.findElement(By.xpath("//span[text()='Technical Support']"));
         clickOnTechnicalText.click();
+        Actions actions = new Actions(driver);
+        actions.scrollToElement(driver.findElement(By.cssSelector("[class='ui right labeled input']"))).perform();
 
         WebElement clickOnDueDateInputBox = driver.findElement(By.cssSelector("input[class='calendarField']"));
         clickOnDueDateInputBox.click();
@@ -67,23 +76,61 @@ public class CogmentoTaskModule extends CogmentoTestNG{
 
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1));
         while (true) {
-            if (driver.findElements(By.xpath("//div[contains(text(),'" + year + "')]")).size()>0) {
+            if (driver.findElements(By.xpath("//div[contains(text(),'" +year+ "')]")).size()>0) {
                 break;
             } else {
                 nextButton.click();
             }
         }
         while (true) {
-            if (driver.findElements(By.xpath("//div[contains(text(),'" + month + "')]")).size()>0) {
+            if (driver.findElements(By.xpath("//div[contains(text(),'" +month+ "')]")).size()>0) {
                 break;
             } else {
                 nextButton.click();
             }
         }
-        WebElement clickOnDate = driver.findElement(By.xpath("//div[text()='17']"));
+        WebElement clickOnDate = driver.findElement(By.xpath("//div[@class='react-datepicker__day react-datepicker__day--008']"));
         clickOnDate.click();
-        WebElement clickOnTime = driver.findElement(By.xpath("//li[text()='14:00']"));
+        WebElement clickOnTime = driver.findElement(By.xpath("//li[text()='14:45']"));
         clickOnTime.click();
-//
+        WebElement clickOnContactInputBox = driver.findElement(By.xpath("(//input[@class='search'])[1]"));
+        clickOnContactInputBox.sendKeys("8919086683", Keys.ENTER);
+        WebElement clickOnCompanyName = driver.findElement(By.xpath("(//input[@class='search'])[2]"));
+        clickOnCompanyName.sendKeys("HyperGrid", Keys.ENTER);
+        WebElement clickOnDealInputBox =driver.findElement(By.xpath("(//input[@class='search'])[3]"));
+        clickOnDealInputBox.sendKeys("GuideWire",Keys.ENTER);
+        WebElement clickOnCaseInputBox = driver.findElement(By.xpath("(//input[@class='search'])[4]"));
+        clickOnCaseInputBox.sendKeys("Testing", Keys.ENTER);
+        Actions actions1 = new Actions(driver);
+        actions1.scrollToElement(driver.findElement(By.cssSelector("[name='identifier']"))).perform();
+        WebElement clickOnCloseDateInputBox = driver.findElement(By.xpath("(//input[@class='calendarField'])[2]"));
+        clickOnCloseDateInputBox.click();
+
+        WebElement nextCloseDataButton = driver.findElement(By.cssSelector("button[class^='react-datepicker__navigation react-datepicker__navigation--n']"));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1));
+        while (true) {
+            if (driver.findElements(By.xpath("//div[contains(text(),'"+closeYear+"')]")).size()>0) {
+                break;
+            } else {
+                nextCloseDataButton.click();
+            }
+        }
+//        while (true) {
+//            if (driver.findElements(By.xpath("//div[contains(text(),'" +closeMonth+ "')]")).size()>0) {
+//                break;
+//            } else {
+//                nextCloseDataButton.click();
+//            }
+//        }
+
+        WebElement clickOnCloseDate = driver.findElement(By.cssSelector("div[class^='react-datepicker__day react-datepicker__day--026']"));
+        clickOnCloseDate.click();
+        WebElement clickOnCloseTime = driver.findElement(By.xpath("//li[text()='21:15']"));
+        clickOnCloseDate.click();
+        WebElement clickOnTagInputBox = driver.findElement(By.xpath("(//input[@class='search'])[4]"));
+        clickOnTagInputBox.sendKeys("#HyperGrid Technology ", Keys.ENTER);
+
+
+
     }
 }
