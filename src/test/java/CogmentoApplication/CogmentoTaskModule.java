@@ -10,11 +10,11 @@ import org.testng.annotations.Test;
 import java.time.Duration;
 import java.util.Set;
 
-public class CogmentoTaskModule extends CogmentoTestNG{
+public class CogmentoTaskModule extends CogmentoTestNG {
 
     String year = "2025";
     String month = "August";
-    String date = "31";
+    String date = "26";
     String time = "18:00";
 
     String closeYear = "August 2026";
@@ -22,20 +22,16 @@ public class CogmentoTaskModule extends CogmentoTestNG{
     String closeDate = "26";
     String closeTime = "18:00";
 
+    public void clickElement(By locator) {
+        driver.findElement(locator).click();
+    }
+
+    public void typeText(By locator, String value) {
+        driver.findElement(locator).sendKeys(value, Keys.ENTER);
+    }
+
     @Test
     public void implementationOfCogmento() throws InterruptedException {
-
-        WebElement clickOnLoginButton = driver.findElement(By.xpath("//a[text()='Login']"));
-        clickOnLoginButton.click();
-        String cogmentoLoginButton = driver.getWindowHandle();
-        System.out.println(cogmentoLoginButton);
-        System.out.println("*************************************");
-
-        Set<String> allWindows = driver.getWindowHandles();
-
-        for (String tab : allWindows) {
-            driver.switchTo().window(tab);
-        }
 
         WebElement enterEmailId = driver.findElement(By.cssSelector("[name='email']"));
         enterEmailId.sendKeys("bablu19735@gmail.com");
@@ -76,14 +72,14 @@ public class CogmentoTaskModule extends CogmentoTestNG{
 
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1));
         while (true) {
-            if (driver.findElements(By.xpath("//div[contains(text(),'" +year+ "')]")).size()>0) {
+            if (driver.findElements(By.xpath("//div[contains(text(),'" + year + "')]")).size() > 0) {
                 break;
             } else {
                 nextButton.click();
             }
         }
         while (true) {
-            if (driver.findElements(By.xpath("//div[contains(text(),'" +month+ "')]")).size()>0) {
+            if (driver.findElements(By.xpath("//div[contains(text(),'" + month + "')]")).size() > 0) {
                 break;
             } else {
                 nextButton.click();
@@ -97,8 +93,8 @@ public class CogmentoTaskModule extends CogmentoTestNG{
         clickOnContactInputBox.sendKeys("8919086683", Keys.ENTER);
         WebElement clickOnCompanyName = driver.findElement(By.xpath("(//input[@class='search'])[2]"));
         clickOnCompanyName.sendKeys("HyperGrid", Keys.ENTER);
-        WebElement clickOnDealInputBox =driver.findElement(By.xpath("(//input[@class='search'])[3]"));
-        clickOnDealInputBox.sendKeys("GuideWire",Keys.ENTER);
+        WebElement clickOnDealInputBox = driver.findElement(By.xpath("(//input[@class='search'])[3]"));
+        clickOnDealInputBox.sendKeys("GuideWire", Keys.ENTER);
         WebElement clickOnCaseInputBox = driver.findElement(By.xpath("(//input[@class='search'])[4]"));
         clickOnCaseInputBox.sendKeys("Testing", Keys.ENTER);
         Actions actions1 = new Actions(driver);
@@ -109,28 +105,34 @@ public class CogmentoTaskModule extends CogmentoTestNG{
         WebElement nextCloseDataButton = driver.findElement(By.cssSelector("button[class^='react-datepicker__navigation react-datepicker__navigation--n']"));
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1));
         while (true) {
-            if (driver.findElements(By.xpath("//div[contains(text(),'"+closeYear+"')]")).size()>0) {
+            if (driver.findElements(By.xpath("//div[contains(text(),'" + closeYear + "')]")).size() > 0) {
                 break;
             } else {
                 nextCloseDataButton.click();
             }
         }
-//        while (true) {
-//            if (driver.findElements(By.xpath("//div[contains(text(),'" +closeMonth+ "')]")).size()>0) {
-//                break;
-//            } else {
-//                nextCloseDataButton.click();
-//            }
-//        }
+        while (true) {
+            if (driver.findElements(By.xpath("//div[contains(text(),'" + closeMonth + "')]")).size() > 0) {
+                break;
+            } else {
+                nextCloseDataButton.click();
+            }
+        }
 
-        WebElement clickOnCloseDate = driver.findElement(By.cssSelector("div[class^='react-datepicker__day react-datepicker__day--026']"));
-        clickOnCloseDate.click();
-        WebElement clickOnCloseTime = driver.findElement(By.xpath("//li[text()='21:15']"));
-        clickOnCloseDate.click();
-        WebElement clickOnTagInputBox = driver.findElement(By.xpath("(//input[@class='search'])[4]"));
-        clickOnTagInputBox.sendKeys("#HyperGrid Technology ", Keys.ENTER);
-
-
+            WebElement clickOnCloseDate = driver.findElement(By.cssSelector("div[class^='react-datepicker__day react-datepicker__day--026']"));
+            clickOnCloseDate.click();
+            WebElement clickOnCloseTime = driver.findElement(By.xpath("//li[text()='21:15']"));
+            clickOnCloseTime.click();
+            typeText(By.xpath("(//input[@aria-autocomplete=\"list\"])[5]"), "#HyperGrid ");
+            typeText(By.cssSelector("[name='description']"), "Chandu Is not working well in office times. But Im trying to tell to work properly.");
+            typeText(By.cssSelector("[name='completion']"), "75");
+            clickElement(By.xpath("(//i[@class='dropdown icon'])[4]"));
+            clickElement(By.xpath("//span[text()='Reviewing']"));
+            clickElement(By.xpath("(//div[@name='priority'])[1]"));
+            clickElement(By.xpath("//span[text()='High']"));
+            typeText(By.cssSelector("[name='identifier']"), "bablu19735@gmail.com");
+            clickElement(By.cssSelector("[class='ui linkedin button']"));
 
     }
 }
+

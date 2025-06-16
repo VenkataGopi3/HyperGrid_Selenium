@@ -1,6 +1,7 @@
 package AutomationTestingFramework;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
@@ -26,5 +27,9 @@ public class SeleniumActionsForSauceDemo {
 
     public void typeValue(By by, String data){
         driver.findElement(by).sendKeys(data);
+    }
+
+    public void typeAndEnter(By by, String data){
+        driver.findElement(by).sendKeys(data,Keys.ENTER);
     }
 }

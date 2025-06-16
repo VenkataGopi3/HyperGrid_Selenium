@@ -33,12 +33,6 @@ public class SauceDemoLoginPage {
     @FindBy(id="login-button")
     private WebElement clickOnLogin;
 
-    public void loginAsUser(String username, String password){
-        seleniumActionsForSauceDemo.typeValue(usernameText, username);
-        seleniumActionsForSauceDemo.typeValue(passwordText, password);
-        seleniumActionsForSauceDemo.clickOnWebElement(clickOnLogin);
-    }
-
     public void sauceLabDemoLogin(String username, String password){
         driver.findElement(usernameInputBox).clear();
 

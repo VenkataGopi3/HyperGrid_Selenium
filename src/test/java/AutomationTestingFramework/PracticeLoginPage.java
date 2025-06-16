@@ -11,7 +11,7 @@ public class PracticeLoginPage {
     private final WebDriver driver;
     private SeleniumActionsForSauceDemo seleniumActionsForSauceDemo;
 
-    public SauceDemoLoginPage(WebDriver driver) {
+    public PracticeLoginPage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
         seleniumActionsForSauceDemo = new SeleniumActionsForSauceDemo(driver);

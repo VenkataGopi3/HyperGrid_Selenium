@@ -1,17 +1,17 @@
 package CogmentoApplication;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import javax.swing.*;
 import java.time.Duration;
 import java.util.Set;
 
-public class CogmentoFullApplication extends CogmentoTestNG {
+public class CogmentoFullApplication  {
 
     String year = "2025";
     String month = "September";
@@ -22,6 +22,21 @@ public class CogmentoFullApplication extends CogmentoTestNG {
     String closeMonth = "September";
     String closeDate = "17";
     String closeTime = "00:00";
+
+    WebDriver driver;
+
+    @BeforeSuite
+    public void Browser(){
+
+        driver = new ChromeDriver();
+    }
+
+    @BeforeTest
+    public void ApplicationImplementation(){
+        driver.get("https://cogmento.com/en");
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+    }
 
 
 
@@ -173,6 +188,8 @@ public class CogmentoFullApplication extends CogmentoTestNG {
             clickOnCloseDate.click();
             WebElement clickOnCloseTime = driver.findElement(By.xpath("//li[text()='00:00']"));
             clickOnCloseTime.click();
+            WebElement clickOnTagInputBox = driver.findElement(By.xpath("(//input[@aria-autocomplete='list'])[5]"));
+            clickOnTagInputBox.sendKeys("#HyperGrid Technology", Keys.ENTER);
         }
     }
 }

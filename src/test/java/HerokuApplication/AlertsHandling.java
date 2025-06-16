@@ -27,9 +27,9 @@ public class AlertsHandling {
         String text = driver.switchTo().alert().getText();
         System.out.println(text);
         Thread.sleep(2000);
-//        driver.switchTo().alert().accept();
+        driver.switchTo().alert().accept();
 
         Thread.sleep(3000);
-        driver.switchTo().alert().dismiss();
+//        driver.switchTo().alert().dismiss();
     }
 }

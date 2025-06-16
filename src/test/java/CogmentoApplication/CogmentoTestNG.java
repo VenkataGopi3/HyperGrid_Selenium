@@ -24,7 +24,7 @@ public class CogmentoTestNG {
 
     @BeforeTest
     public void ApplicationImplementation(){
-        driver.get("https://cogmento.com/en");
+        driver.get("https://ui.cogmento.com/");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
@@ -59,18 +59,18 @@ public class CogmentoTestNG {
 
 //        System.out.println(cogmentoWindow);
 //        System.out.println("*************************************");
-        WebElement clickOnLoginButton = driver.findElement(By.xpath("//a[text()='Login']"));
-        clickOnLoginButton.click();
-        String cogmentoWindow = driver.getWindowHandle();
-        System.out.println(cogmentoWindow);
-        System.out.println("*************************************");
-
-        Set<String> allWindows = driver.getWindowHandles();
-
-        for (String tab: allWindows){
-            System.out.println(tab);
-            driver.switchTo().window(tab);
-        }
+//        WebElement clickOnLoginButton = driver.findElement(By.xpath("//a[text()='Login']"));
+//        clickOnLoginButton.click();
+//        String cogmentoWindow = driver.getWindowHandle();
+//        System.out.println(cogmentoWindow);
+//        System.out.println("*************************************");
+//
+//        Set<String> allWindows = driver.getWindowHandles();
+//
+//        for (String tab: allWindows){
+//            System.out.println(tab);
+//            driver.switchTo().window(tab);
+//        }
 
        WebElement enterEmailId = driver.findElement(By.cssSelector("[name='email']"));
        enterEmailId.sendKeys("bablu19735@gmail.com");
