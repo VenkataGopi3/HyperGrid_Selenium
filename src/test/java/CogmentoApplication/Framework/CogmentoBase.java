@@ -37,7 +37,6 @@ public class CogmentoBase {
         }
     }
 
-
     @BeforeTest
     public void launchApplication(@Optional("https://ui.cogmento.com/")String url){
         driver.navigate().to(url);

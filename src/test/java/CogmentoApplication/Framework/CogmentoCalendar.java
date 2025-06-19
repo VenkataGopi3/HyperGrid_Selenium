@@ -1,14 +1,14 @@
 package CogmentoApplication.Framework;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
 public class CogmentoCalendar {
     private WebDriver driver;
+
     private CogmentoSeleniumActions cogmentoSeleniumActions;
 
     String year = "June 2026";
@@ -35,7 +35,7 @@ public class CogmentoCalendar {
         By clickEndDate = By.xpath("//div[text()='"+endDate+"']");By clickEndTime = By.xpath("//li[text()='"+endTime+"']");
         By clickOnCategory = By.xpath("(//i[@class='dropdown icon'])[2]");
         By clickOnPrivate = By.xpath("//span[text()='Private']");
-        By clickAndEnterTagName = By.xpath("(//div[@role='combobox'])[1]");
+        By clickAndEnterTagName = By.xpath("(//input[@type='text'])[5]");
 //        By writeTagName = By.xpath("(//div[@role='combobox'])[1]");
 //        WebElement writeTag = driver.findElement(By.xpath("(//div[@role='combobox'])[1]"));
         By enterDescription = By.cssSelector("[name='description']");
@@ -45,8 +45,9 @@ public class CogmentoCalendar {
         By clickOnAlertVia = By.cssSelector("[name='channels']");
         By clickOnAlertMsg = By.xpath("//span[text()='SMS']");
         By clickOnSave = By.cssSelector("[class='ui linkedin button']");
-//        By clickOnOk = By.xpath("//button[text()='OK']");
+//        By clickOnOk = By.cssSelector("[class='ui primary button']");
 //       By clickOnAlert = By.xpath("(//button[@class='ui icon button'])[3]");
+
 
 
     public void calendarImplmentation() throws InterruptedException{
@@ -88,8 +89,14 @@ public class CogmentoCalendar {
         cogmentoSeleniumActions.clickOnElement(clickOnPrivate);
 //        driver.findElement(clickOnPrivate).click();
         cogmentoSeleniumActions.clickOnElement(clickAndEnterTagName);
+        Thread.sleep(2000);
+        cogmentoSeleniumActions.typeText(clickAndEnterTagName, "#HyperGrid");
+        Thread.sleep(2000);
+//        JavascriptExecutor jse = (JavascriptExecutor)driver;
+//        jse.executeScript("arguments[0].value='#HyperGrid PVT LTD'",clickAndEnterTagName);
+
+//        driver.findElement(By.xpath("(//div[@role='combobox'])[1]")).sendKeys("#HyperGrid", Keys.ENTER);
 //        driver.findElement(clickAndEnterTagName).click();
-//        driver.findElement(clickAndEnterTagName).sendKeys("#HyperGrid Technology",Keys.ENTER);
 //        WebElement clickOnTag = driver.findElement(By.xpath("(//div[@role='combobox'])[1]"));
 //        cogmentoSeleniumActions.typeText(clickOnTag,"#HyperGrid Technology ");
 //        cogmentoSeleniumActions.typeText(clickAndEnterTagName,"#HyperGrid");
@@ -102,6 +109,12 @@ public class CogmentoCalendar {
         cogmentoSeleniumActions.clickOnElement(clickOnAlertVia);
         cogmentoSeleniumActions.clickOnElement(clickOnAlertMsg);
         cogmentoSeleniumActions.clickOnElement(clickOnSave);
+//        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(50));
+//        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+//        WebElement element = wait.until(
+//                ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[text()='OK']")));
+//        element.click();
+//        Thread.sleep(2000);
 //        cogmentoSeleniumActions.clickOnElement(clickOnOk);
 //        Thread.sleep(2000);
 //        driver.switchTo().alert().accept();

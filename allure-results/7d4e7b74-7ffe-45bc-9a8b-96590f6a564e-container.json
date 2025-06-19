@@ -1,0 +1,1 @@
+{"uuid":"7d4e7b74-7ffe-45bc-9a8b-96590f6a564e","name":"Default Suite","children":["369783a7-3572-4017-9704-bc4d06b6e849"],"befores":[{"name":"OpenBrowser","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1750068371181,"stop":1750068373254}],"afters":[],"start":1750068371146,"stop":1750068407571}

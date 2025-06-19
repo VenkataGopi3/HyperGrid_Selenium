@@ -24,7 +24,9 @@ public class CogmentoSeleniumActions {
     public void writeText(By by, String data){
         driver.findElement(by).sendKeys(data);
     }
-    public void typeText(By locator, String value) {
-        driver.findElement(locator).sendKeys(value, Keys.ENTER);
+    public void typeText(By by, String value) {
+        driver.findElement(by).sendKeys(value, Keys.ENTER);
     }
+
+
 }

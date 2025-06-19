@@ -54,9 +54,9 @@ public class SauceDemoApplicationBase {
     }
 
     @AfterMethod
-    public void captureScreenshot(ITestResult iTestResult, Method mothod) {
+    public void captureScreenshot(ITestResult iTestResult, Method method) {
         if (iTestResult.getStatus() == ITestResult.FAILURE){
-            getScreenshot(mothod);
+            getScreenshot(method);
         }
     }
 

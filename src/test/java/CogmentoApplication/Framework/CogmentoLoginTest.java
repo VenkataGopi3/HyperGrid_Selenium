@@ -3,6 +3,8 @@ package CogmentoApplication.Framework;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import java.time.Duration;
+
 public class CogmentoLoginTest extends CogmentoBase{
 
     CogmentoLoginPage cogmentoLoginPage;
@@ -21,6 +23,7 @@ public class CogmentoLoginTest extends CogmentoBase{
     public void VerifyTheCredentials() throws InterruptedException{
         cogmentoLoginPage.loginAsUser("bablu19735@gmail.com", "Bablu@333");
         cogmentoCalendar.calendarImplmentation();
+        Thread.sleep(5000);
         cogmentoContacts.implementationContacts();
     }
 
