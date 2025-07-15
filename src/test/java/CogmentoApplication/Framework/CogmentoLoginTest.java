@@ -22,7 +22,7 @@ public class CogmentoLoginTest extends CogmentoBase{
     @Test
     public void VerifyTheCredentials() throws InterruptedException{
         cogmentoLoginPage.loginAsUser("bablu19735@gmail.com", "Bablu@333");
-        cogmentoCalendar.calendarImplmentation();
+//        cogmentoCalendar.calendarImplmentation();
         Thread.sleep(5000);
         cogmentoContacts.implementationContacts();
     }

@@ -1,0 +1,1 @@
+{"uuid":"afcf9fe4-9ca7-4c9a-aafb-a0df85116b67","name":"JavaPractice","children":["ca2e31aa-1915-442e-b328-79844ca8c97b"],"befores":[{"name":"launchApplication","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1750410282007,"stop":1750410283225}],"afters":[],"start":1750410282002,"stop":1750410283455}
