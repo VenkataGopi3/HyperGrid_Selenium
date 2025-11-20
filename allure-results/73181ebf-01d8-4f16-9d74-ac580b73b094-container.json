@@ -1,1 +1,23 @@
-{"uuid":"73181ebf-01d8-4f16-9d74-ac580b73b094","name":"CogmentoApplication.Framework.CogmentoLoginTest","children":["29cf9e61-091f-4120-a3fb-0e5cd564d56f"],"befores":[{"name":"initializePage","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1750065064206,"stop":1750065064252}],"afters":[],"start":1750065036296,"stop":1750065099937}
+{
+	"uuid": "73181ebf-01d8-4f16-9d74-ac580b73b094",
+	"name": "CogmentoApplication.Framework.CogmentoLoginTest",
+	"children": [
+		"29cf9e61-091f-4120-a3fb-0e5cd564d56f"
+	],
+	"befores": [
+		{
+			"name": "initializePage",
+			"status": "passed",
+			"stage": "finished",
+			"description": "",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1750065064206,
+			"stop": 1750065064252
+		}
+	],
+	"afters": [],
+	"start": 1750065036296,
+	"stop": 1750065099937
+}

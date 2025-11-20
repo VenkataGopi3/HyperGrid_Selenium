@@ -1,1 +1,23 @@
-{"uuid":"2e76ac9e-a98c-4402-abca-bf1841ef6a35","name":"SauceDemoAutomationTestingFramework.SauceDemoLoginTest","children":["5e4d1637-b57c-4fca-9267-df176b84a62a"],"befores":[{"name":"initializePages","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1750317083491,"stop":1750317083578}],"afters":[],"start":1750317082478,"stop":1750317085027}
+{
+	"uuid": "2e76ac9e-a98c-4402-abca-bf1841ef6a35",
+	"name": "SauceDemoAutomationTestingFramework.SauceDemoLoginTest",
+	"children": [
+		"5e4d1637-b57c-4fca-9267-df176b84a62a"
+	],
+	"befores": [
+		{
+			"name": "initializePages",
+			"status": "passed",
+			"stage": "finished",
+			"description": "",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1750317083491,
+			"stop": 1750317083578
+		}
+	],
+	"afters": [],
+	"start": 1750317082478,
+	"stop": 1750317085027
+}

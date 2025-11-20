@@ -1,0 +1,1 @@
+{"uuid":"70610e1d-85f2-4c0c-89f6-50d32c1c2e0c","name":"JioMartApplication.JioMartLoginTest","children":["5a5bd029-19fc-410d-ba15-bacbc72b1c4b"],"befores":[{"name":"initializePage","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1757489067376,"stop":1757489067381}],"afters":[],"start":1757489061666,"stop":1757489068926}

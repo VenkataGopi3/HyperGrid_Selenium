@@ -1,0 +1,74 @@
+{
+	"uuid": "2783174f-3211-498e-9fcf-32f82e93e094",
+	"historyId": "bc5aa09202238aaee68017be1ebd6a8d",
+	"fullName": "SauceDemoAutomationTestingFramework.ReadDataFromExcelFile.sauceLabDemoLogin",
+	"labels": [
+		{
+			"name": "package",
+			"value": "SauceDemoAutomationTestingFramework.ReadDataFromExcelFile"
+		},
+		{
+			"name": "testClass",
+			"value": "SauceDemoAutomationTestingFramework.ReadDataFromExcelFile"
+		},
+		{
+			"name": "testMethod",
+			"value": "sauceLabDemoLogin"
+		},
+		{
+			"name": "parentSuite",
+			"value": "Default suite"
+		},
+		{
+			"name": "suite",
+			"value": "Default test"
+		},
+		{
+			"name": "subSuite",
+			"value": "SauceDemoAutomationTestingFramework.ReadDataFromExcelFile"
+		},
+		{
+			"name": "host",
+			"value": "HP"
+		},
+		{
+			"name": "thread",
+			"value": "21484@HP.main(1)"
+		},
+		{
+			"name": "framework",
+			"value": "testng"
+		},
+		{
+			"name": "language",
+			"value": "java"
+		}
+	],
+	"links": [],
+	"name": "sauceLabDemoLogin",
+	"status": "passed",
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"stage": "finished",
+	"steps": [],
+	"attachments": [],
+	"parameters": [
+		{
+			"name": "arg2",
+			"value": "Password"
+		},
+		{
+			"name": "arg1",
+			"value": "UserName"
+		},
+		{
+			"name": "arg0",
+			"value": "UserType"
+		}
+	],
+	"start": 1752653614412,
+	"stop": 1752653614415
+}

@@ -1,1 +1,23 @@
-{"uuid":"d1e1eb2a-e873-42e0-890e-ceddff5c1f42","name":"MakeMyTripApplication.TestNG.SeleniumFramework.TicketBookingTest","children":["96308f97-cb8f-44b0-a69f-4dc61e74f5d5"],"befores":[{"name":"loadClasses","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1750919310170,"stop":1750919310173}],"afters":[],"start":1750919306657,"stop":1750919313495}
+{
+	"uuid": "d1e1eb2a-e873-42e0-890e-ceddff5c1f42",
+	"name": "MakeMyTripApplication.TestNG.SeleniumFramework.TicketBookingTest",
+	"children": [
+		"96308f97-cb8f-44b0-a69f-4dc61e74f5d5"
+	],
+	"befores": [
+		{
+			"name": "loadClasses",
+			"status": "passed",
+			"stage": "finished",
+			"description": "",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1750919310170,
+			"stop": 1750919310173
+		}
+	],
+	"afters": [],
+	"start": 1750919306657,
+	"stop": 1750919313495
+}

@@ -1,1 +1,23 @@
-{"uuid":"8010ccac-4264-4cf3-aac5-741ec5b011e4","name":"JavaPractice","children":["45962bf4-2381-4354-8ca8-c329588d4093"],"befores":[{"name":"launchApplication","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1750919101393,"stop":1750919102132}],"afters":[],"start":1750919101393,"stop":1750919109333}
+{
+	"uuid": "8010ccac-4264-4cf3-aac5-741ec5b011e4",
+	"name": "JavaPractice",
+	"children": [
+		"45962bf4-2381-4354-8ca8-c329588d4093"
+	],
+	"befores": [
+		{
+			"name": "launchApplication",
+			"status": "passed",
+			"stage": "finished",
+			"description": "",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1750919101393,
+			"stop": 1750919102132
+		}
+	],
+	"afters": [],
+	"start": 1750919101393,
+	"stop": 1750919109333
+}

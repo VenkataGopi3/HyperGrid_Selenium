@@ -1,1 +1,24 @@
-{"uuid":"16bb768f-03ee-4908-bd46-f700ba651233","name":"SauceDemoAutomationTestingFramework.SauceDemoApplicationBase.captureScreenshot","children":["3d4d27fe-c999-4b25-b767-27699096f7bf"],"description":"","befores":[],"afters":[{"name":"captureScreenshot","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1750317048007,"stop":1750317048009}],"start":1750317048007,"stop":1750317048009}
+{
+	"uuid": "16bb768f-03ee-4908-bd46-f700ba651233",
+	"name": "SauceDemoAutomationTestingFramework.SauceDemoApplicationBase.captureScreenshot",
+	"children": [
+		"3d4d27fe-c999-4b25-b767-27699096f7bf"
+	],
+	"description": "",
+	"befores": [],
+	"afters": [
+		{
+			"name": "captureScreenshot",
+			"status": "passed",
+			"stage": "finished",
+			"description": "",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1750317048007,
+			"stop": 1750317048009
+		}
+	],
+	"start": 1750317048007,
+	"stop": 1750317048009
+}

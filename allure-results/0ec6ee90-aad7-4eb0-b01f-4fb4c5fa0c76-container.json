@@ -1,0 +1,31 @@
+{
+	"uuid": "0ec6ee90-aad7-4eb0-b01f-4fb4c5fa0c76",
+	"name": "Default test",
+	"children": [
+		"bf7b1231-edc3-4201-8872-be4ee2576c46",
+		"ddc36b6e-840d-478c-885c-12618fc82cd4",
+		"2783174f-3211-498e-9fcf-32f82e93e094",
+		"bb695f36-a749-4494-a23a-31b39775d83b",
+		"4014ae96-8ccd-4d05-b6b4-2571d8abaad4",
+		"8b06ef03-4c32-4381-8e3b-b7b1ca4fa64d",
+		"7662fcdb-7a1c-4933-92bf-a3fd95b8b432",
+		"16df3a0b-4779-4d80-b19f-65612b737087",
+		"1fa1d711-c283-4dac-a31f-38998e1dea3a"
+	],
+	"befores": [
+		{
+			"name": "launchApplication",
+			"status": "passed",
+			"stage": "finished",
+			"description": "",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1752653611960,
+			"stop": 1752653612481
+		}
+	],
+	"afters": [],
+	"start": 1752653611954,
+	"stop": 1752653614479
+}

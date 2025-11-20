@@ -1,0 +1,24 @@
+{
+	"uuid": "4abd348b-f477-444e-9ddd-daf186de655e",
+	"name": "SauceDemoAutomationTestingFramework.SauceDemoLoginTest",
+	"children": [
+		"bf7b1231-edc3-4201-8872-be4ee2576c46",
+		"ddc36b6e-840d-478c-885c-12618fc82cd4"
+	],
+	"befores": [
+		{
+			"name": "initializePages",
+			"status": "passed",
+			"stage": "finished",
+			"description": "",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1752653612522,
+			"stop": 1752653612564
+		}
+	],
+	"afters": [],
+	"start": 1752653611955,
+	"stop": 1752653614487
+}

@@ -1,1 +1,33 @@
-{"uuid":"9f1150aa-36a4-47c1-af34-ce36c1a7975c","name":"CucumberBDDAutomationFramework.Runner","children":[],"befores":[{"name":"setUpClass","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1750144248394,"stop":1750144248633}],"afters":[{"name":"tearDownClass","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1750144248652,"stop":1750144248655}],"start":1750144248317,"stop":1750144248776}
+{
+	"uuid": "9f1150aa-36a4-47c1-af34-ce36c1a7975c",
+	"name": "CucumberBDDAutomationFramework.Runner",
+	"children": [],
+	"befores": [
+		{
+			"name": "setUpClass",
+			"status": "passed",
+			"stage": "finished",
+			"description": "",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1750144248394,
+			"stop": 1750144248633
+		}
+	],
+	"afters": [
+		{
+			"name": "tearDownClass",
+			"status": "passed",
+			"stage": "finished",
+			"description": "",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1750144248652,
+			"stop": 1750144248655
+		}
+	],
+	"start": 1750144248317,
+	"stop": 1750144248776
+}

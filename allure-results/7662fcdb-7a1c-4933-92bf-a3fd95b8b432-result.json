@@ -1,0 +1,74 @@
+{
+	"uuid": "7662fcdb-7a1c-4933-92bf-a3fd95b8b432",
+	"historyId": "333b3632e02e4a90a5e72ba95386d870",
+	"fullName": "SauceDemoAutomationTestingFramework.ReadDataFromExcelFile.sauceLabDemoLogin",
+	"labels": [
+		{
+			"name": "package",
+			"value": "SauceDemoAutomationTestingFramework.ReadDataFromExcelFile"
+		},
+		{
+			"name": "testClass",
+			"value": "SauceDemoAutomationTestingFramework.ReadDataFromExcelFile"
+		},
+		{
+			"name": "testMethod",
+			"value": "sauceLabDemoLogin"
+		},
+		{
+			"name": "parentSuite",
+			"value": "Default suite"
+		},
+		{
+			"name": "suite",
+			"value": "Default test"
+		},
+		{
+			"name": "subSuite",
+			"value": "SauceDemoAutomationTestingFramework.ReadDataFromExcelFile"
+		},
+		{
+			"name": "host",
+			"value": "HP"
+		},
+		{
+			"name": "thread",
+			"value": "21484@HP.main(1)"
+		},
+		{
+			"name": "framework",
+			"value": "testng"
+		},
+		{
+			"name": "language",
+			"value": "java"
+		}
+	],
+	"links": [],
+	"name": "sauceLabDemoLogin",
+	"status": "passed",
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"stage": "finished",
+	"steps": [],
+	"attachments": [],
+	"parameters": [
+		{
+			"name": "arg2",
+			"value": "secret_sauce"
+		},
+		{
+			"name": "arg1",
+			"value": "performance_glitch_user"
+		},
+		{
+			"name": "arg0",
+			"value": "Performance_Glitch"
+		}
+	],
+	"start": 1752653614451,
+	"stop": 1752653614452
+}

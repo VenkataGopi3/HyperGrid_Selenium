@@ -1,1 +1,61 @@
-{"uuid":"0748d7b6-ebec-4d15-9710-05c148986bea","historyId":"516531a19e1dd1b29fbf10e77e645f16","fullName":"CogmentoApplication.Framework.CogmentoLoginTest.VerifyTheCredentials","labels":[{"name":"package","value":"CogmentoApplication.Framework.CogmentoLoginTest"},{"name":"testClass","value":"CogmentoApplication.Framework.CogmentoLoginTest"},{"name":"testMethod","value":"VerifyTheCredentials"},{"name":"parentSuite","value":"Default Suite"},{"name":"suite","value":"JavaPractice"},{"name":"subSuite","value":"CogmentoApplication.Framework.CogmentoLoginTest"},{"name":"host","value":"HP"},{"name":"thread","value":"2228@HP.main(1)"},{"name":"framework","value":"testng"},{"name":"language","value":"java"}],"links":[],"name":"VerifyTheCredentials","status":"passed","statusDetails":{"known":false,"muted":false,"flaky":false},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1750131640127,"stop":1750131685767}
+{
+	"uuid": "0748d7b6-ebec-4d15-9710-05c148986bea",
+	"historyId": "516531a19e1dd1b29fbf10e77e645f16",
+	"fullName": "CogmentoApplication.Framework.CogmentoLoginTest.VerifyTheCredentials",
+	"labels": [
+		{
+			"name": "package",
+			"value": "CogmentoApplication.Framework.CogmentoLoginTest"
+		},
+		{
+			"name": "testClass",
+			"value": "CogmentoApplication.Framework.CogmentoLoginTest"
+		},
+		{
+			"name": "testMethod",
+			"value": "VerifyTheCredentials"
+		},
+		{
+			"name": "parentSuite",
+			"value": "Default Suite"
+		},
+		{
+			"name": "suite",
+			"value": "JavaPractice"
+		},
+		{
+			"name": "subSuite",
+			"value": "CogmentoApplication.Framework.CogmentoLoginTest"
+		},
+		{
+			"name": "host",
+			"value": "HP"
+		},
+		{
+			"name": "thread",
+			"value": "2228@HP.main(1)"
+		},
+		{
+			"name": "framework",
+			"value": "testng"
+		},
+		{
+			"name": "language",
+			"value": "java"
+		}
+	],
+	"links": [],
+	"name": "VerifyTheCredentials",
+	"status": "passed",
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"stage": "finished",
+	"steps": [],
+	"attachments": [],
+	"parameters": [],
+	"start": 1750131640127,
+	"stop": 1750131685767
+}

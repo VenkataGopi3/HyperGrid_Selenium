@@ -1,1 +1,61 @@
-{"uuid":"0a4e739a-cf72-48ae-a0b2-bb152e1f6e43","historyId":"7ce077db708f49cc82d5ae82c23c75c0","fullName":"BStackAutomation.verifyLogin.verifyUserNameAndPassowrd","labels":[{"name":"package","value":"BStackAutomation.verifyLogin"},{"name":"testClass","value":"BStackAutomation.verifyLogin"},{"name":"testMethod","value":"verifyUserNameAndPassowrd"},{"name":"parentSuite","value":"Default Suite"},{"name":"suite","value":"JavaPractice"},{"name":"subSuite","value":"BStackAutomation.verifyLogin"},{"name":"host","value":"HP"},{"name":"thread","value":"31188@HP.main(1)"},{"name":"framework","value":"testng"},{"name":"language","value":"java"}],"links":[],"name":"verifyUserNameAndPassowrd","status":"passed","statusDetails":{"known":false,"muted":false,"flaky":false},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1751471661388,"stop":1751471661547}
+{
+	"uuid": "0a4e739a-cf72-48ae-a0b2-bb152e1f6e43",
+	"historyId": "7ce077db708f49cc82d5ae82c23c75c0",
+	"fullName": "BStackAutomation.verifyLogin.verifyUserNameAndPassowrd",
+	"labels": [
+		{
+			"name": "package",
+			"value": "BStackAutomation.verifyLogin"
+		},
+		{
+			"name": "testClass",
+			"value": "BStackAutomation.verifyLogin"
+		},
+		{
+			"name": "testMethod",
+			"value": "verifyUserNameAndPassowrd"
+		},
+		{
+			"name": "parentSuite",
+			"value": "Default Suite"
+		},
+		{
+			"name": "suite",
+			"value": "JavaPractice"
+		},
+		{
+			"name": "subSuite",
+			"value": "BStackAutomation.verifyLogin"
+		},
+		{
+			"name": "host",
+			"value": "HP"
+		},
+		{
+			"name": "thread",
+			"value": "31188@HP.main(1)"
+		},
+		{
+			"name": "framework",
+			"value": "testng"
+		},
+		{
+			"name": "language",
+			"value": "java"
+		}
+	],
+	"links": [],
+	"name": "verifyUserNameAndPassowrd",
+	"status": "passed",
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"stage": "finished",
+	"steps": [],
+	"attachments": [],
+	"parameters": [],
+	"start": 1751471661388,
+	"stop": 1751471661547
+}

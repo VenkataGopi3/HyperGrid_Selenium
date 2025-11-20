@@ -1,1 +1,70 @@
-{"uuid":"37e19372-1874-419e-a943-e274f419046d","historyId":"93c2ccb402268dfa49d8e66829c0abac","fullName":"io.cucumber.testng.AbstractTestNGCucumberTests.runScenario","labels":[{"name":"package","value":"CucumberBDDAutomationFramework.Runner"},{"name":"testClass","value":"CucumberBDDAutomationFramework.Runner"},{"name":"testMethod","value":"runScenario"},{"name":"parentSuite","value":"Default Suite"},{"name":"suite","value":"JavaPractice"},{"name":"subSuite","value":"CucumberBDDAutomationFramework.Runner"},{"name":"host","value":"HP"},{"name":"thread","value":"38444@HP.main(1)"},{"name":"framework","value":"testng"},{"name":"language","value":"java"}],"links":[],"name":"Runs Cucumber Scenarios","status":"passed","statusDetails":{"known":false,"muted":false,"flaky":false},"stage":"finished","steps":[],"attachments":[],"parameters":[{"name":"arg1","value":"\"LoginAdd commentMore actions\""},{"name":"arg0","value":"\"Verify login with valid credentials - with examples and verify number of products and heading\""}],"start":1750145162540,"stop":1750145162680}
+{
+	"uuid": "37e19372-1874-419e-a943-e274f419046d",
+	"historyId": "93c2ccb402268dfa49d8e66829c0abac",
+	"fullName": "io.cucumber.testng.AbstractTestNGCucumberTests.runScenario",
+	"labels": [
+		{
+			"name": "package",
+			"value": "CucumberBDDAutomationFramework.Runner"
+		},
+		{
+			"name": "testClass",
+			"value": "CucumberBDDAutomationFramework.Runner"
+		},
+		{
+			"name": "testMethod",
+			"value": "runScenario"
+		},
+		{
+			"name": "parentSuite",
+			"value": "Default Suite"
+		},
+		{
+			"name": "suite",
+			"value": "JavaPractice"
+		},
+		{
+			"name": "subSuite",
+			"value": "CucumberBDDAutomationFramework.Runner"
+		},
+		{
+			"name": "host",
+			"value": "HP"
+		},
+		{
+			"name": "thread",
+			"value": "38444@HP.main(1)"
+		},
+		{
+			"name": "framework",
+			"value": "testng"
+		},
+		{
+			"name": "language",
+			"value": "java"
+		}
+	],
+	"links": [],
+	"name": "Runs Cucumber Scenarios",
+	"status": "passed",
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"stage": "finished",
+	"steps": [],
+	"attachments": [],
+	"parameters": [
+		{
+			"name": "arg1",
+			"value": "\"LoginAdd commentMore actions\""
+		},
+		{
+			"name": "arg0",
+			"value": "\"Verify login with valid credentials - with examples and verify number of products and heading\""
+		}
+	],
+	"start": 1750145162540,
+	"stop": 1750145162680
+}

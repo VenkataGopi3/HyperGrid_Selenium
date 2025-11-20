@@ -1,1 +1,23 @@
-{"uuid":"884f082e-f7cc-46cd-984f-96026c150f92","name":"SauceDemoAutomationTestingFramework.SauceDemoLoginTest","children":["dd7230bb-87a8-49a5-81c4-03416dd78a3d"],"befores":[{"name":"initializePages","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1750317710519,"stop":1750317710573}],"afters":[],"start":1750317709722,"stop":1750317711413}
+{
+	"uuid": "884f082e-f7cc-46cd-984f-96026c150f92",
+	"name": "SauceDemoAutomationTestingFramework.SauceDemoLoginTest",
+	"children": [
+		"dd7230bb-87a8-49a5-81c4-03416dd78a3d"
+	],
+	"befores": [
+		{
+			"name": "initializePages",
+			"status": "passed",
+			"stage": "finished",
+			"description": "",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1750317710519,
+			"stop": 1750317710573
+		}
+	],
+	"afters": [],
+	"start": 1750317709722,
+	"stop": 1750317711413
+}

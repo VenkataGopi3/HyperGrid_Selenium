@@ -1,1 +1,61 @@
-{"uuid":"29c3c3b7-b196-4724-afe1-bb929ea53f60","historyId":"d416ce07b629c5930e38360007f9c79","fullName":"BStackAutomation.BStackWebApplication.orderVerification","labels":[{"name":"package","value":"BStackAutomation.BStackWebApplication"},{"name":"testClass","value":"BStackAutomation.BStackWebApplication"},{"name":"testMethod","value":"orderVerification"},{"name":"parentSuite","value":"Default Suite"},{"name":"suite","value":"JavaPractice"},{"name":"subSuite","value":"BStackAutomation.BStackWebApplication"},{"name":"host","value":"HP"},{"name":"thread","value":"22048@HP.main(1)"},{"name":"framework","value":"testng"},{"name":"language","value":"java"}],"links":[],"name":"orderVerification","status":"passed","statusDetails":{"known":false,"muted":false,"flaky":false},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1751604520083,"stop":1751604520670}
+{
+	"uuid": "29c3c3b7-b196-4724-afe1-bb929ea53f60",
+	"historyId": "d416ce07b629c5930e38360007f9c79",
+	"fullName": "BStackAutomation.BStackWebApplication.orderVerification",
+	"labels": [
+		{
+			"name": "package",
+			"value": "BStackAutomation.BStackWebApplication"
+		},
+		{
+			"name": "testClass",
+			"value": "BStackAutomation.BStackWebApplication"
+		},
+		{
+			"name": "testMethod",
+			"value": "orderVerification"
+		},
+		{
+			"name": "parentSuite",
+			"value": "Default Suite"
+		},
+		{
+			"name": "suite",
+			"value": "JavaPractice"
+		},
+		{
+			"name": "subSuite",
+			"value": "BStackAutomation.BStackWebApplication"
+		},
+		{
+			"name": "host",
+			"value": "HP"
+		},
+		{
+			"name": "thread",
+			"value": "22048@HP.main(1)"
+		},
+		{
+			"name": "framework",
+			"value": "testng"
+		},
+		{
+			"name": "language",
+			"value": "java"
+		}
+	],
+	"links": [],
+	"name": "orderVerification",
+	"status": "passed",
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"stage": "finished",
+	"steps": [],
+	"attachments": [],
+	"parameters": [],
+	"start": 1751604520083,
+	"stop": 1751604520670
+}

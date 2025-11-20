@@ -1,1 +1,35 @@
-{"uuid":"4b8849b9-a24b-4b9c-990a-d9b718b07d5a","name":"Default Suite","children":["0f15f276-895f-4c58-b8af-86148dacecf1"],"befores":[{"name":"initializeDrivers","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1750317855513,"stop":1750317858303}],"afters":[{"name":"closeBrowser","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1750317861043,"stop":1750317861508}],"start":1750317855473,"stop":1750317861509}
+{
+	"uuid": "4b8849b9-a24b-4b9c-990a-d9b718b07d5a",
+	"name": "Default Suite",
+	"children": [
+		"0f15f276-895f-4c58-b8af-86148dacecf1"
+	],
+	"befores": [
+		{
+			"name": "initializeDrivers",
+			"status": "passed",
+			"stage": "finished",
+			"description": "",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1750317855513,
+			"stop": 1750317858303
+		}
+	],
+	"afters": [
+		{
+			"name": "closeBrowser",
+			"status": "passed",
+			"stage": "finished",
+			"description": "",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1750317861043,
+			"stop": 1750317861508
+		}
+	],
+	"start": 1750317855473,
+	"stop": 1750317861509
+}

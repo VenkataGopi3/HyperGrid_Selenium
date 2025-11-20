@@ -1,0 +1,61 @@
+{
+	"uuid": "bf7b1231-edc3-4201-8872-be4ee2576c46",
+	"historyId": "8ccd031f6672858b89e8a31408b9f956",
+	"fullName": "SauceDemoAutomationTestingFramework.SauceDemoLoginTest.verifyCartItems",
+	"labels": [
+		{
+			"name": "package",
+			"value": "SauceDemoAutomationTestingFramework.SauceDemoLoginTest"
+		},
+		{
+			"name": "testClass",
+			"value": "SauceDemoAutomationTestingFramework.SauceDemoLoginTest"
+		},
+		{
+			"name": "testMethod",
+			"value": "verifyCartItems"
+		},
+		{
+			"name": "parentSuite",
+			"value": "Default suite"
+		},
+		{
+			"name": "suite",
+			"value": "Default test"
+		},
+		{
+			"name": "subSuite",
+			"value": "SauceDemoAutomationTestingFramework.SauceDemoLoginTest"
+		},
+		{
+			"name": "host",
+			"value": "HP"
+		},
+		{
+			"name": "thread",
+			"value": "21484@HP.main(1)"
+		},
+		{
+			"name": "framework",
+			"value": "testng"
+		},
+		{
+			"name": "language",
+			"value": "java"
+		}
+	],
+	"links": [],
+	"name": "verifyCartItems",
+	"status": "passed",
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"stage": "finished",
+	"steps": [],
+	"attachments": [],
+	"parameters": [],
+	"start": 1752653612670,
+	"stop": 1752653612692
+}

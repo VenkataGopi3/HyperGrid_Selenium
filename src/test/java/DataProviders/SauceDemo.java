@@ -29,6 +29,7 @@ public class SauceDemo {
             if(cell.getStringCellValue().equals("performance_glitch_user")){
                 rowNumber = row.getRowNum();
                 System.out.println(rowNumber);
+                break;
             }
         }
         for(Cell cell: sheet.getRow(rowNumber)){

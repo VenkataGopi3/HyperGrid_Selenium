@@ -1,1 +1,61 @@
-{"uuid":"0d55b6a8-a827-4547-b996-02ecb7c9c27e","historyId":"516531a19e1dd1b29fbf10e77e645f16","fullName":"CogmentoApplication.Framework.CogmentoLoginTest.VerifyTheCredentials","labels":[{"name":"package","value":"CogmentoApplication.Framework.CogmentoLoginTest"},{"name":"testClass","value":"CogmentoApplication.Framework.CogmentoLoginTest"},{"name":"testMethod","value":"VerifyTheCredentials"},{"name":"parentSuite","value":"Default Suite"},{"name":"suite","value":"JavaPractice"},{"name":"subSuite","value":"CogmentoApplication.Framework.CogmentoLoginTest"},{"name":"host","value":"HP"},{"name":"thread","value":"13856@HP.main(1)"},{"name":"framework","value":"testng"},{"name":"language","value":"java"}],"links":[],"name":"VerifyTheCredentials","status":"passed","statusDetails":{"known":false,"muted":false,"flaky":false},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1750402683811,"stop":1750402696555}
+{
+	"uuid": "0d55b6a8-a827-4547-b996-02ecb7c9c27e",
+	"historyId": "516531a19e1dd1b29fbf10e77e645f16",
+	"fullName": "CogmentoApplication.Framework.CogmentoLoginTest.VerifyTheCredentials",
+	"labels": [
+		{
+			"name": "package",
+			"value": "CogmentoApplication.Framework.CogmentoLoginTest"
+		},
+		{
+			"name": "testClass",
+			"value": "CogmentoApplication.Framework.CogmentoLoginTest"
+		},
+		{
+			"name": "testMethod",
+			"value": "VerifyTheCredentials"
+		},
+		{
+			"name": "parentSuite",
+			"value": "Default Suite"
+		},
+		{
+			"name": "suite",
+			"value": "JavaPractice"
+		},
+		{
+			"name": "subSuite",
+			"value": "CogmentoApplication.Framework.CogmentoLoginTest"
+		},
+		{
+			"name": "host",
+			"value": "HP"
+		},
+		{
+			"name": "thread",
+			"value": "13856@HP.main(1)"
+		},
+		{
+			"name": "framework",
+			"value": "testng"
+		},
+		{
+			"name": "language",
+			"value": "java"
+		}
+	],
+	"links": [],
+	"name": "VerifyTheCredentials",
+	"status": "passed",
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"stage": "finished",
+	"steps": [],
+	"attachments": [],
+	"parameters": [],
+	"start": 1750402683811,
+	"stop": 1750402696555
+}

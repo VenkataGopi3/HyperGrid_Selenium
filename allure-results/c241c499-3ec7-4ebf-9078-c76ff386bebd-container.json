@@ -1,0 +1,24 @@
+{
+	"uuid": "c241c499-3ec7-4ebf-9078-c76ff386bebd",
+	"name": "SauceDemoAutomationTestingFramework.SauceDemoApplicationBase.captureScreenshot",
+	"children": [
+		"ddc36b6e-840d-478c-885c-12618fc82cd4"
+	],
+	"description": "",
+	"befores": [],
+	"afters": [
+		{
+			"name": "captureScreenshot",
+			"status": "passed",
+			"stage": "finished",
+			"description": "",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1752653613379,
+			"stop": 1752653613379
+		}
+	],
+	"start": 1752653613379,
+	"stop": 1752653613379
+}

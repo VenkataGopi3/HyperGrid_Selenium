@@ -1,1 +1,11 @@
-{"uuid":"849eb170-4b28-4654-9c81-8e39b32f9735","name":"MakeMyTripApplication.TestNG.TicketBookingTest","children":["ca2e31aa-1915-442e-b328-79844ca8c97b"],"befores":[],"afters":[],"start":1750410282003,"stop":1750410283468}
+{
+	"uuid": "849eb170-4b28-4654-9c81-8e39b32f9735",
+	"name": "MakeMyTripApplication.TestNG.TicketBookingTest",
+	"children": [
+		"ca2e31aa-1915-442e-b328-79844ca8c97b"
+	],
+	"befores": [],
+	"afters": [],
+	"start": 1750410282003,
+	"stop": 1750410283468
+}

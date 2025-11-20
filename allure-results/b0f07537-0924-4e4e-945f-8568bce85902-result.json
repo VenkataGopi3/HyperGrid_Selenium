@@ -1,1 +1,70 @@
-{"uuid":"b0f07537-0924-4e4e-945f-8568bce85902","historyId":"a3e7557eb4239f2a534c814852c60873","fullName":"io.cucumber.testng.AbstractTestNGCucumberTests.runScenario","labels":[{"name":"package","value":"AutomationCucumberFramework.LoginPageRunner"},{"name":"testClass","value":"AutomationCucumberFramework.LoginPageRunner"},{"name":"testMethod","value":"runScenario"},{"name":"parentSuite","value":"Default Suite"},{"name":"suite","value":"JavaPractice"},{"name":"subSuite","value":"AutomationCucumberFramework.LoginPageRunner"},{"name":"host","value":"HP"},{"name":"thread","value":"20360@HP.main(1)"},{"name":"framework","value":"testng"},{"name":"language","value":"java"}],"links":[],"name":"Runs Cucumber Scenarios","status":"passed","statusDetails":{"known":false,"muted":false,"flaky":false},"stage":"finished","steps":[],"attachments":[],"parameters":[{"name":"arg1","value":"\"Login\""},{"name":"arg0","value":"\"Verify login with valid credentials and verify number of products and heading\""}],"start":1750154506932,"stop":1750154507053}
+{
+	"uuid": "b0f07537-0924-4e4e-945f-8568bce85902",
+	"historyId": "a3e7557eb4239f2a534c814852c60873",
+	"fullName": "io.cucumber.testng.AbstractTestNGCucumberTests.runScenario",
+	"labels": [
+		{
+			"name": "package",
+			"value": "AutomationCucumberFramework.LoginPageRunner"
+		},
+		{
+			"name": "testClass",
+			"value": "AutomationCucumberFramework.LoginPageRunner"
+		},
+		{
+			"name": "testMethod",
+			"value": "runScenario"
+		},
+		{
+			"name": "parentSuite",
+			"value": "Default Suite"
+		},
+		{
+			"name": "suite",
+			"value": "JavaPractice"
+		},
+		{
+			"name": "subSuite",
+			"value": "AutomationCucumberFramework.LoginPageRunner"
+		},
+		{
+			"name": "host",
+			"value": "HP"
+		},
+		{
+			"name": "thread",
+			"value": "20360@HP.main(1)"
+		},
+		{
+			"name": "framework",
+			"value": "testng"
+		},
+		{
+			"name": "language",
+			"value": "java"
+		}
+	],
+	"links": [],
+	"name": "Runs Cucumber Scenarios",
+	"status": "passed",
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"stage": "finished",
+	"steps": [],
+	"attachments": [],
+	"parameters": [
+		{
+			"name": "arg1",
+			"value": "\"Login\""
+		},
+		{
+			"name": "arg0",
+			"value": "\"Verify login with valid credentials and verify number of products and heading\""
+		}
+	],
+	"start": 1750154506932,
+	"stop": 1750154507053
+}

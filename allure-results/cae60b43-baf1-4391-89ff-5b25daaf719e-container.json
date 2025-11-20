@@ -1,1 +1,29 @@
-{"uuid":"cae60b43-baf1-4391-89ff-5b25daaf719e","name":"SauceDemoAutomationTestingFramework.SauceDemoApplicationBase.captureScreenshot","children":["44867e25-b9e9-4133-992a-89a275f2c055"],"description":"","befores":[],"afters":[{"name":"captureScreenshot","status":"passed","stage":"finished","description":"","steps":[],"attachments":[{"name":"verifyLoginWithValidCredentials","source":"39f8a92a-eb17-4609-9017-e0b183d99af4-attachment"}],"parameters":[],"start":1750317860380,"stop":1750317861014}],"start":1750317860379,"stop":1750317861015}
+{
+	"uuid": "cae60b43-baf1-4391-89ff-5b25daaf719e",
+	"name": "SauceDemoAutomationTestingFramework.SauceDemoApplicationBase.captureScreenshot",
+	"children": [
+		"44867e25-b9e9-4133-992a-89a275f2c055"
+	],
+	"description": "",
+	"befores": [],
+	"afters": [
+		{
+			"name": "captureScreenshot",
+			"status": "passed",
+			"stage": "finished",
+			"description": "",
+			"steps": [],
+			"attachments": [
+				{
+					"name": "verifyLoginWithValidCredentials",
+					"source": "39f8a92a-eb17-4609-9017-e0b183d99af4-attachment"
+				}
+			],
+			"parameters": [],
+			"start": 1750317860380,
+			"stop": 1750317861014
+		}
+	],
+	"start": 1750317860379,
+	"stop": 1750317861015
+}

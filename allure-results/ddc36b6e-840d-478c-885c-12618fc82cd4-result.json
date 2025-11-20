@@ -1,0 +1,61 @@
+{
+	"uuid": "ddc36b6e-840d-478c-885c-12618fc82cd4",
+	"historyId": "12b450270d645811b81a9b3dedbd3384",
+	"fullName": "SauceDemoAutomationTestingFramework.SauceDemoLoginTest.verifyLoginWithValidCredentials",
+	"labels": [
+		{
+			"name": "package",
+			"value": "SauceDemoAutomationTestingFramework.SauceDemoLoginTest"
+		},
+		{
+			"name": "testClass",
+			"value": "SauceDemoAutomationTestingFramework.SauceDemoLoginTest"
+		},
+		{
+			"name": "testMethod",
+			"value": "verifyLoginWithValidCredentials"
+		},
+		{
+			"name": "parentSuite",
+			"value": "Default suite"
+		},
+		{
+			"name": "suite",
+			"value": "Default test"
+		},
+		{
+			"name": "subSuite",
+			"value": "SauceDemoAutomationTestingFramework.SauceDemoLoginTest"
+		},
+		{
+			"name": "host",
+			"value": "HP"
+		},
+		{
+			"name": "thread",
+			"value": "21484@HP.main(1)"
+		},
+		{
+			"name": "framework",
+			"value": "testng"
+		},
+		{
+			"name": "language",
+			"value": "java"
+		}
+	],
+	"links": [],
+	"name": "verifyLoginWithValidCredentials",
+	"status": "passed",
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"stage": "finished",
+	"steps": [],
+	"attachments": [],
+	"parameters": [],
+	"start": 1752653612863,
+	"stop": 1752653613372
+}

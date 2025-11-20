@@ -1,1 +1,11 @@
-{"uuid":"287f243b-f039-4770-97ce-49aa0d8c95e8","name":"JavaPractice","children":["20462b38-af00-4acd-b3e8-e8c320e35aa4"],"befores":[],"afters":[],"start":1750245816564,"stop":1750245817895}
+{
+	"uuid": "287f243b-f039-4770-97ce-49aa0d8c95e8",
+	"name": "JavaPractice",
+	"children": [
+		"20462b38-af00-4acd-b3e8-e8c320e35aa4"
+	],
+	"befores": [],
+	"afters": [],
+	"start": 1750245816564,
+	"stop": 1750245817895
+}

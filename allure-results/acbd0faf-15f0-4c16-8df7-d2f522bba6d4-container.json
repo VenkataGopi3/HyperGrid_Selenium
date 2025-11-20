@@ -1,0 +1,17 @@
+{
+	"uuid": "acbd0faf-15f0-4c16-8df7-d2f522bba6d4",
+	"name": "SauceDemoAutomationTestingFramework.ReadDataFromExcelFile",
+	"children": [
+		"2783174f-3211-498e-9fcf-32f82e93e094",
+		"bb695f36-a749-4494-a23a-31b39775d83b",
+		"4014ae96-8ccd-4d05-b6b4-2571d8abaad4",
+		"8b06ef03-4c32-4381-8e3b-b7b1ca4fa64d",
+		"7662fcdb-7a1c-4933-92bf-a3fd95b8b432",
+		"16df3a0b-4779-4d80-b19f-65612b737087",
+		"1fa1d711-c283-4dac-a31f-38998e1dea3a"
+	],
+	"befores": [],
+	"afters": [],
+	"start": 1752653611955,
+	"stop": 1752653614484
+}

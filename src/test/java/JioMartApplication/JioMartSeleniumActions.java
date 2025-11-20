@@ -1,0 +1,34 @@
+package JioMartApplication;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class JioMartSeleniumActions {
+
+    private  WebDriver driver;
+
+    public JioMartSeleniumActions(WebDriver driver){
+
+        this.driver=driver;
+    }
+
+    public void clickElement(WebElement element){
+        element.click();
+    }
+    public void typeText(WebElement element, String data){
+        element.sendKeys(data, Keys.ENTER);
+    }
+    public void clickOnElement(By by){
+
+        driver.findElement(by).click();
+    }
+    public void writeText(By by, String data){
+        driver.findElement(by).sendKeys(data);
+    }
+    public void typeText(By by, String value) {
+        driver.findElement(by).sendKeys(value, Keys.ENTER);
+    }
+
+}

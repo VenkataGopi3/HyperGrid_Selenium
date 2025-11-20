@@ -1,0 +1,35 @@
+{
+	"uuid": "3fe534fd-c340-43e3-b167-e8365c4f5250",
+	"name": "Default suite",
+	"children": [
+		"0ec6ee90-aad7-4eb0-b01f-4fb4c5fa0c76"
+	],
+	"befores": [
+		{
+			"name": "initializeDrivers",
+			"status": "passed",
+			"stage": "finished",
+			"description": "",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1752653608560,
+			"stop": 1752653611932
+		}
+	],
+	"afters": [
+		{
+			"name": "closeBrowser",
+			"status": "passed",
+			"stage": "finished",
+			"description": "",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1752653614536,
+			"stop": 1752653614808
+		}
+	],
+	"start": 1752653608517,
+	"stop": 1752653614809
+}

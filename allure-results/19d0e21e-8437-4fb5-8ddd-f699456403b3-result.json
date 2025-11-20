@@ -1,1 +1,61 @@
-{"uuid":"19d0e21e-8437-4fb5-8ddd-f699456403b3","historyId":"e0bd053463f66b44ad8b66ec00a6820c","fullName":"DataProviders.SauceDemo.readDataFromExcel","labels":[{"name":"package","value":"DataProviders.SauceDemo"},{"name":"testClass","value":"DataProviders.SauceDemo"},{"name":"testMethod","value":"readDataFromExcel"},{"name":"parentSuite","value":"Default Suite"},{"name":"suite","value":"JavaPractice"},{"name":"subSuite","value":"DataProviders.SauceDemo"},{"name":"host","value":"HP"},{"name":"thread","value":"19164@HP.main(1)"},{"name":"framework","value":"testng"},{"name":"language","value":"java"}],"links":[],"name":"readDataFromExcel","status":"passed","statusDetails":{"known":false,"muted":false,"flaky":false},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1750246310363,"stop":1750246311467}
+{
+	"uuid": "19d0e21e-8437-4fb5-8ddd-f699456403b3",
+	"historyId": "e0bd053463f66b44ad8b66ec00a6820c",
+	"fullName": "DataProviders.SauceDemo.readDataFromExcel",
+	"labels": [
+		{
+			"name": "package",
+			"value": "DataProviders.SauceDemo"
+		},
+		{
+			"name": "testClass",
+			"value": "DataProviders.SauceDemo"
+		},
+		{
+			"name": "testMethod",
+			"value": "readDataFromExcel"
+		},
+		{
+			"name": "parentSuite",
+			"value": "Default Suite"
+		},
+		{
+			"name": "suite",
+			"value": "JavaPractice"
+		},
+		{
+			"name": "subSuite",
+			"value": "DataProviders.SauceDemo"
+		},
+		{
+			"name": "host",
+			"value": "HP"
+		},
+		{
+			"name": "thread",
+			"value": "19164@HP.main(1)"
+		},
+		{
+			"name": "framework",
+			"value": "testng"
+		},
+		{
+			"name": "language",
+			"value": "java"
+		}
+	],
+	"links": [],
+	"name": "readDataFromExcel",
+	"status": "passed",
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"stage": "finished",
+	"steps": [],
+	"attachments": [],
+	"parameters": [],
+	"start": 1750246310363,
+	"stop": 1750246311467
+}

@@ -1,1 +1,35 @@
-{"uuid":"ae5d27e0-8742-4b14-b019-b9ff65a50cac","name":"AutomationCucumberFramework.LoginPageRunner","children":["7e708a69-0155-48bf-b792-cb9748549e49"],"befores":[{"name":"setUpClass","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1750154530638,"stop":1750154530940}],"afters":[{"name":"tearDownClass","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1750154531277,"stop":1750154531280}],"start":1750154530568,"stop":1750154531292}
+{
+	"uuid": "ae5d27e0-8742-4b14-b019-b9ff65a50cac",
+	"name": "AutomationCucumberFramework.LoginPageRunner",
+	"children": [
+		"7e708a69-0155-48bf-b792-cb9748549e49"
+	],
+	"befores": [
+		{
+			"name": "setUpClass",
+			"status": "passed",
+			"stage": "finished",
+			"description": "",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1750154530638,
+			"stop": 1750154530940
+		}
+	],
+	"afters": [
+		{
+			"name": "tearDownClass",
+			"status": "passed",
+			"stage": "finished",
+			"description": "",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1750154531277,
+			"stop": 1750154531280
+		}
+	],
+	"start": 1750154530568,
+	"stop": 1750154531292
+}

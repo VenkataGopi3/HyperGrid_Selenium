@@ -1,1 +1,61 @@
-{"uuid":"3d4d27fe-c999-4b25-b767-27699096f7bf","historyId":"12b450270d645811b81a9b3dedbd3384","fullName":"SauceDemoAutomationTestingFramework.SauceDemoLoginTest.verifyLoginWithValidCredentials","labels":[{"name":"package","value":"SauceDemoAutomationTestingFramework.SauceDemoLoginTest"},{"name":"testClass","value":"SauceDemoAutomationTestingFramework.SauceDemoLoginTest"},{"name":"testMethod","value":"verifyLoginWithValidCredentials"},{"name":"parentSuite","value":"Default Suite"},{"name":"suite","value":"JavaPractice"},{"name":"subSuite","value":"SauceDemoAutomationTestingFramework.SauceDemoLoginTest"},{"name":"host","value":"HP"},{"name":"thread","value":"24236@HP.main(1)"},{"name":"framework","value":"testng"},{"name":"language","value":"java"}],"links":[],"name":"verifyLoginWithValidCredentials","status":"passed","statusDetails":{"known":false,"muted":false,"flaky":false},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1750317047321,"stop":1750317047904}
+{
+	"uuid": "3d4d27fe-c999-4b25-b767-27699096f7bf",
+	"historyId": "12b450270d645811b81a9b3dedbd3384",
+	"fullName": "SauceDemoAutomationTestingFramework.SauceDemoLoginTest.verifyLoginWithValidCredentials",
+	"labels": [
+		{
+			"name": "package",
+			"value": "SauceDemoAutomationTestingFramework.SauceDemoLoginTest"
+		},
+		{
+			"name": "testClass",
+			"value": "SauceDemoAutomationTestingFramework.SauceDemoLoginTest"
+		},
+		{
+			"name": "testMethod",
+			"value": "verifyLoginWithValidCredentials"
+		},
+		{
+			"name": "parentSuite",
+			"value": "Default Suite"
+		},
+		{
+			"name": "suite",
+			"value": "JavaPractice"
+		},
+		{
+			"name": "subSuite",
+			"value": "SauceDemoAutomationTestingFramework.SauceDemoLoginTest"
+		},
+		{
+			"name": "host",
+			"value": "HP"
+		},
+		{
+			"name": "thread",
+			"value": "24236@HP.main(1)"
+		},
+		{
+			"name": "framework",
+			"value": "testng"
+		},
+		{
+			"name": "language",
+			"value": "java"
+		}
+	],
+	"links": [],
+	"name": "verifyLoginWithValidCredentials",
+	"status": "passed",
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"stage": "finished",
+	"steps": [],
+	"attachments": [],
+	"parameters": [],
+	"start": 1750317047321,
+	"stop": 1750317047904
+}
